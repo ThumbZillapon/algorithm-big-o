@@ -47,3 +47,5 @@ const studentsInfo = [
 ];
 
 console.log(findAverageScoreByClass(studentsInfo, 11)); // 91.5
+
+// O(n) เพราะใช้ filter() และ reduce() ที่ใช้ไล่ตามจำนวนนักเรียน = n

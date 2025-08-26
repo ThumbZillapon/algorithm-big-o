@@ -14,3 +14,5 @@ console.log(hasDuplicates(array1)); // true
 
 const array2 = [1, 2, 3, 4, 5, 6, 7];
 console.log(hasDuplicates(array2)); // false
+
+// O(n²) เพราะ function hasDuplicates เป็น loop 2 ชั้น(nested loops)

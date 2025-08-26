@@ -68,3 +68,5 @@ const studentsInfo = [
 
 console.log(addScoreToSelectedStudent(studentsInfo, "Emily", "art", 70)); // Emily has got 70 on art
 console.log(addScoreToSelectedStudent(studentsInfo, "Olive", "math", 80)); //Cannot find Olive on the list
+
+// O(n²) เพราะ function sortedByName เป็น bubble sort
